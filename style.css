@@ -13,21 +13,23 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    width: auto;
-    
+    overflow: hidden;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FaF8;
-    font-size: 18px;
     font-weight: 700;
     border-radius: 10px;
     border: none;
-    width: 20%;
+    
+    width: 128px;
     text-align: center;
     margin-top: 8px;
     padding: 10px 10px;
+
+    text-transform: none;
+    flex: 1;
 }
 
 
@@ -50,14 +52,15 @@ ul {
     display: flex;
     flex-direction: column;
     
+    flex: 0;
 }
 
 .header {
-    flex: 0;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 40%;
 }
 
 .head-links {
@@ -71,17 +74,17 @@ ul {
 }
 
 .top-info {
-    flex: 5;
+    
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 64px 0 96px;
+    padding: 5% 0;
+    
 }
 
 .top-section img {
     flex: 0;
     display:flex;
-    
 }
 
 .hero-text{
@@ -199,8 +202,8 @@ ul {
 }
 
 .bordered-button {
-    flex: 1;
     border: 2px solid #F9FaF8;
+    max-width: 128px;
 }
 
 /* Footer */
