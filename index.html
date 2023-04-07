@@ -5,46 +5,71 @@
         <meta charset="utf-8">
         <title>Landing Page</title>
         <link rel="stylesheet" href="./style.css">
+        <!-- Imported Roboto Font from Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <!--  Section 1 : Header Section-->
-        <div class="top-section">
-            <div class="header">
-                <h1 class="logo">Header Logo</h1>
-                <ul class="head-links">
-                    <li><a href="#">header link one</a>
-                    <li><a href="#">header link one</a>
-                    <li><a href="#">header link one</a>
-                </ul>
-            </div>
-            <div class= "top-info">
-                <div class="info-text">
-                    <h1 class="hero-main">This Website is Awesome</h1>
-                    <p class="hero-sec">This website has some subtext that goes here under the main title. 
-                        Header image credit to https://www.pexels.com/photo/agriculture-animals-country-countryside-460956/. </p>
-                    <button>Sign up</button>
+        <div class="webpage">
+            <!--  Section 1 : Header Section-->
+            <div class="top-section">
+                <div class="header">
+                    <h1 class="logo">Header Logo</h1>
+                    <ul class="head-links">
+                        <li><a href="#">header link one</a>
+                        <li><a href="#">header link one</a>
+                        <li><a href="#">header link one</a>
+                    </ul>
                 </div>
-                <img src="./References/sheep.jpg" height="250px" width="500px">
+                <div class= "top-info">
+                    <div class="info-text">
+                        <div class="hero-main">This Website is Awesome</div>
+                        <div class="hero-sec">This website has some subtext that goes here under the main title. 
+                            Header image credit to https://www.pexels.com/photo/agriculture-animals-country-countryside-460956/. </div>
+                        <button>Sign up</button>
+                    </div>
+                    <img src="./References/sheep.jpg" height="250px" width="500px">
+                </div>
+            </div>
+            
+            <!--  Section 2 : Body -->
+            <!-- in css can use rounded corners for the images-->
+            <div class="body-section">
+                <h1 class="info-header">Some random information.</h1>
+                <div class="info">
+                    <div class="info-box">
+                        <img src="./References/placeHolder.png">
+                        <div class="info-text">this is some subtext under an illustration or image</div>
+                    </div>
+                    <div class="info-box">
+                        <img src="./References/placeHolder.png">
+                        <div class="info-text">this is some subtext under an illustration or image</div>
+                    </div>
+                    <div class="info-box">
+                        <img src="./References/placeHolder.png">
+                        <div class="info-text">this is some subtext under an illustration or image</div>
+                    </div>
+                    <div class="info-box">
+                        <img src="./References/placeHolder.png">
+                        <div class="info-text">this is some subtext under an illustration or image</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  Section 3 : ButtonBox -->
+            <div class= "sign-box">
+                <div class="call">Call to action! It's time!</div>
+                <div class="call-text">Sign up for our product by clicking that button right over there!</div>
+                <button class="bordered-button">Sign up</button>
+            </div>
+
+            <!--  Section 4 : Footer -->
+            <div class="footer">
+                <div class="footer-text">Copyright &copy The Odin Project 2021</div>
             </div>
         </div>
-        
-        <!--  Section 2 : Body -->
-        <div class="body-section">
-            <h1 class="info-body">Some random information.</h1>
-
-        </div>
-
-        <!--  Section 3 : ButtonBox -->
-        <div class= "sign-box">
-
-        </div>
-
-        <!--  Section 4 : Footer -->
-        <div class="footer">
-
-        </div>
-
 
     </body>
 </html>

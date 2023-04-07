@@ -1,33 +1,58 @@
 
 
-ul {
-    list-style: none;
-}
 
-a {
-    text-decoration: none;
-    color:#F9FaF8;
-}
 
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.webpage {
+    display: flex;
+    flex-direction: column;
+    max-width: 2560px;
+    min-width: 1280px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FaF8;
+    border-radius: 5px;
+    border: none;
+    width: 96px;
+    height: 24px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Header Section */
+a {
+    text-decoration: none;
+    color:#F9FaF8;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
 }
 
 .top-section {
     background-color: #1f2937;
     color: #F9FaF8;
-}
+    padding:0 128px;
 
-.top-section img {
-    max-width: 500px;
-    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .header {
+    flex: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .head-links {
@@ -42,9 +67,38 @@ body {
 }
 
 .top-info {
-    display: flex;
+    flex: 5;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 0 96px;
+}
+
+.top-section img {
+    flex: 0;
+    display:flex;
+    
 }
 
 .info-text{
-
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    
 }
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Body Section */
+
+
+
+/* Sign Up Box */
+
+
+
+/* Footer */
